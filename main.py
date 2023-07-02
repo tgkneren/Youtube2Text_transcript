@@ -13,9 +13,9 @@ def save_text_to_file(text, file_path):
     try:
         with open(file_path, 'w', encoding='utf-8') as file:
             file.write(text)
-        print("Metin dosyası başarıyla kaydedildi.")
+        print("Text file saved")
     except Exception as e:
-        print("Metin dosyası kaydedilirken bir hata oluştu:", str(e))
+        print("An error occurred while saving the text file:", str(e))
 
 
 video_id = 'QXWNChoIluo'  # https://www.youtube.com/watch?v=QXWNChoIluo (youtube link id)
